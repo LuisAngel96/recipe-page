@@ -1,0 +1,100 @@
+/* ------------------------- Family Fonts ------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* ------------------------- General Setting ------------------------- */
+*{
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+}
+
+h1, h2{
+    font-family: "Young Serif", serif;
+}
+
+/* ------------------------- Body ------------------------- */
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    border: 2px solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 5em auto;
+}
+
+/* ------------------------- Main ------------------------- */
+
+main{
+    border: 1px solid green;
+}
+
+/* ------------------------- Container Section ------------------------- */
+
+.container{
+    border: 1px solid blue;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2em;
+}
+
+.img-omelette-container{
+    width: 100%;
+    border-radius: 1em;
+}
+
+/* ------------------------- Introduction Section ------------------------- */
+
+.introduction-container{
+    width: 90%;
+    font-weight: 400;
+    margin: 2em 0;
+    line-height: 1.6em;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 0.5em 0;
+}
+
+/* ------------------------- Preparation Section ------------------------- */
+
+.peparation-container{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    margin-bottom: 1em;
+    font-size: 1.2rem;
+}
+
+.items-preparation-list{
+    color: hsl(24, 5%, 18%);
+}
+
+strong:before{
+    content: "•";
+    color: hsl(332, 51%, 32%);
+    margin-right: 20px;
+    line-height: 2em;
+}
+
+strong{
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+}
+
+/* ------------------------- Nutrition Section ------------------------- */
+
+td{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
