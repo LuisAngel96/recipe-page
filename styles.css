@@ -2,41 +2,44 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 /* ------------------------- General Setting ------------------------- */
+
 *{
     font-family: "Outfit", sans-serif;
     font-size: 1rem;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: "Young Serif", serif;
 }
+
+h3{
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 1em 0;
+}
+
 
 /* ------------------------- Body ------------------------- */
 
 body{
     background-color: hsl(30, 54%, 90%);
-    border: 2px solid red;
-    width: 50%;
+    width: 700px;
     display: flex;
     flex-direction: column;
     margin: 5em auto;
 }
 
-/* ------------------------- Main ------------------------- */
-
-main{
-    border: 1px solid green;
-}
 
 /* ------------------------- Container Section ------------------------- */
 
 .container{
-    border: 1px solid blue;
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
+    border-radius: 1.5rem;
 }
 
 .img-omelette-container{
@@ -47,10 +50,11 @@ main{
 /* ------------------------- Introduction Section ------------------------- */
 
 .introduction-container{
-    width: 90%;
+    width: 100%;
     font-weight: 400;
     margin: 2em 0;
     line-height: 1.6em;
+    color: hsl(24, 5%, 18%);
 }
 
 h1{
@@ -64,9 +68,10 @@ h1{
     background-color: hsl(330, 100%, 98%);
     padding: 1.5em;
     margin-bottom: 2em;
+    border-radius: 1.5em;
 }
 
-h3{
+h2{
     color: hsl(332, 51%, 32%);
     font-weight: 700;
     margin-bottom: 1em;
@@ -75,26 +80,93 @@ h3{
 
 .items-preparation-list{
     color: hsl(24, 5%, 18%);
-}
-
-strong:before{
-    content: "•";
-    color: hsl(332, 51%, 32%);
-    margin-right: 20px;
     line-height: 2em;
 }
 
-strong{
-    font-weight: 600;
+.items-preparation-list:before{
+    content: "•";
+    color: hsl(332, 51%, 32%);
+    margin-right: 20px;
+}
+
+.items-preparation-list strong{
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);
+}
+
+/* ------------------------- Ingredients Section ------------------------- */
+
+.ingredients-list{
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.items-ingredients-list{
+    color: hsl(24, 5%, 18%);
+    line-height: 2em;
+}
+
+.items-ingredients-list:before{
+    content: "•";
+    color: hsl(14, 45%, 36%);
+    margin-right: 20px;
+}
+
+/* ------------------------- Instructions Section ------------------------- */
+
+.instructions-list{
+    padding-bottom: 2em;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    list-style: decimal;
+    padding: 1em 0 1em 1.5em;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+.items-instructions-list{
+    margin-bottom: 1em;
+}
+
+.items-instructions-list p{
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-left: 10px;
+}
+
+.items-instructions-list strong{
+    font-weight: 700;
     color: hsl(24, 5%, 18%);
 }
 
 /* ------------------------- Nutrition Section ------------------------- */
 
+.nutrition-container p{
+    color: hsl(24, 5%, 18%);
+    padding-bottom: 1.5em;
+}
+
+.nutrition-table{
+    width: 100%;
+}
+
 td{
-    border: 1px solid black;
-    padding: 10px 20px;
+    color: hsl(24, 5%, 18%);
+    border: 1px solid hsl(30, 18%, 87%);
+    padding: 10px 0 15px 35px;
     border-top: none;
     border-left: none;
     border-right: none;
 }
+
+.values{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.fat-row{
+    border: none;
+}
+
+/* ------------------------- Footer ------------------------- */
+
