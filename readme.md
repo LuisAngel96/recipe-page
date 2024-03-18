@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Solution](https://github.com/LuisAngel96/social-links-profile)
-- Live Site URL: [Live site](https://luisangel96.github.io/social-links-profile/)
+- Solution URL: [Github Solution](https://github.com/LuisAngel96/recipe-page)
+- Live Site URL: [Live site](https://luisangel96.github.io/recipe-page/)
 
 ## My process
 
